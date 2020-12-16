@@ -41,7 +41,7 @@ distributions:
     distribution_cache: http://repositories.ros.org/rosdistro_cache/lunar-cache.yaml.gz
   melodic:
     distribution: [melodic/distribution.yaml]
-    distribution_cache: http://repositories.ros.org/rosdistro_cache/melodic-cache.yaml.gz
+    distribution_cache: https://raw.githubusercontent.com/groove-x/rosdistro/maint/revert-melodic-strech/rosdistro_cache/melodic-cache.yaml.gz
   noetic:
     distribution: [noetic/distribution.yaml]
     distribution_cache: http://repositories.ros.org/rosdistro_cache/noetic-cache.yaml.gz
